@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(154, 175, 194);
+}
+h1{
+    font-size: 50pt; color: white;
+    text-shadow: 4px 4px 24px rgb(72, 104, 133);
+    text-align: center;
+    text-transform: capitalize;
+}
+p.a{
+  padding: 5px;
+  color: white;
+  background-color:rgb(85, 118, 148);
+  text-align: center;
+}
+p{
+    color: white;
+    text-align: left; 
+}
+ #names-list{
+  list-style-type: circle;
+  color: white;
+  text-align: left;
+}
+

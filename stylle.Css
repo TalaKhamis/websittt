@@ -1,0 +1,63 @@
+.TP1{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.33),rgba(0,0,0,0.33)),url(Vet-ClinicAR22102020-1024x640.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+@media (min-width:950px) and(max-width:1150px){
+.TP1{
+    flex-direction: column;
+    justify-content: center;
+}
+
+}
+    
+
+
+.Ta1{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 0;
+}
+.Ta1 ul li{
+    display: inline-block;
+    margin: 15px 17px;
+    text-transform: capitalize;
+}
+.Ta1 ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.Ta1 ul li a:hover{
+    color:rgb(70, 113, 156);
+}
+.text{
+    width:100%;
+    position: absolute;
+    top: 40%;
+    left:5%;
+    text-align: left;
+    color:#fff;
+}
+.text h1{
+    font-size: 30px;
+    margin-top: 0px;
+    text-transform:capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.b{
+background-color: rgb(72, 104, 133);
+  border: none;
+  color: white;
+  padding: 7px 9px;
+  text-decoration: none;
+  margin: 2px 1px;
+}
+
+  a:hover{
+    color:rgb(128, 164, 198) ;
+  }

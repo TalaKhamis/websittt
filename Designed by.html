@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>veterinary clinic</title> 
+        <link rel="stylesheet" href="Disgndby22.css">
+        
+    </head>
+    <body>
+        <h1>Designed By :</h1>
+        <p class="a">This website was designed by a group of female students from the College of Computing and Information Technology,
+         Internet and Web Technology course</p>
+        <p>Group Members</p>
+        <body>
+            <ul id="names-list"></ul> 
+        </body>
+        </html>
+        
+        
+        
+        <script>
+        const names = ["Reyoof Alotaibi 431007992 Reyoofalotaibi@gmail.com",
+          "Sadeem Alharbi 431004309 Queensadeem8@gmail.com",
+          "Tala Albalawi 431002874 Talakhamis803@gmail.com",
+        
+          "Eman Albalawi 431008118 Emamohammed@gmail.com"];
+        const namesList = document.getElementById("names-list");
+        
+        shuffle(names);
+        
+        names.forEach(name => {
+          const listItem = document.createElement("li");
+          listItem.textContent = name;
+          namesList.appendChild(listItem);
+        });
+        
+        function shuffle(array) {
+          let currentIndex = array.length;
+          let temporaryValue, randomIndex;
+        
+          while (currentIndex !== 0) {
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+        
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+          }
+        
+          return array;
+        }
+        </script>
+        
+    <img src="صورة واتساب بتاريخ 1445-05-04 في 18.36.08_5cf05c08.jpg" style="width: 220px;height: 220px; float:left;">
+    
+    </body>
+</html>
